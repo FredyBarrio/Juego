@@ -134,10 +134,9 @@ public class Juego {
         leer.nextLine();
        atacar2(jugador2, jugador1);
        System.out.println("");
-       System.out.println("presione enter");
-        leer.nextLine();
-        atacar2(jugador2, jugador1);
-        leer.nextLine();
+       
+       
+        
        }while (jugador1.PS>=0 && jugador2.PS>=0); {
         if(jugador1.PS<=0){
         System.out.println("Pokemon de Jugador 1 se debilito ");
@@ -153,10 +152,9 @@ public class Juego {
         leer.nextLine();
        atacar(jugador1,jugador2);
        System.out.println("");
-       System.out.println("presione enter");
-        leer.nextLine();
-        atacar(jugador1, jugador2);
-        leer.nextLine();
+      
+        
+        
        }while (jugador1.PS>=0 && jugador2.PS>=0); {
         if(jugador1.PS<=0){
         System.out.println("Pokemon de Jugador 1 se debilito ");
@@ -165,10 +163,9 @@ public class Juego {
         System.out.println("Pokemon de Jugador 2 se debilito ");
         System.out.println("Jugador 1 Gana la Batalla ");
        
-
-       }}}
-
-       
+    }
+    }
+    }
 
     }
     static void atacar(personajes jugador1, personajes jugador2){
@@ -202,4 +199,4 @@ public class Juego {
         System.out.println("");
 }
 }
-     
+        
