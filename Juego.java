@@ -139,7 +139,7 @@ public class Juego {
         atacar2(jugador2, jugador1);
         leer.nextLine();
        }while (jugador1.PS>=0 && jugador2.PS>=0); {
-        if(jugador1.PS>=0){
+        if(jugador1.PS<=0){
         System.out.println("Pokemon de Jugador 1 se debilito ");
         System.out.println("Jugador 2 Gana la Batalla ");
         }else{
@@ -158,7 +158,7 @@ public class Juego {
         atacar(jugador1, jugador2);
         leer.nextLine();
        }while (jugador1.PS>=0 && jugador2.PS>=0); {
-        if(jugador1.PS>=0){
+        if(jugador1.PS<=0){
         System.out.println("Pokemon de Jugador 1 se debilito ");
         System.out.println("Jugador 2 Gana la Batalla ");
         }else{
@@ -202,4 +202,4 @@ public class Juego {
         System.out.println("");
 }
 }
-        
+     
